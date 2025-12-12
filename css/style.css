@@ -5,6 +5,34 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+/* NAVBAR TRIPCOL 🇨🇴 */
+
+/* Color base azul bandera */
+.navbar-light .navbar-nav .nav-link {
+    color: #0033A0 !important;
+}
+
+/* Hover rojo bandera */
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #D50000 !important;
+}
+
+/* Estado activo */
+.navbar-light .navbar-nav .nav-link.active {
+    color: #D50000 !important;
+}
+
+/* Dropdown hover */
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #D50000 !important;
+    background-color: transparent !important;
+}
+
+.colombia-blue { color: #0033A0; }   /* azul bandera */
+.colombia-yellow { color: #FCD116; } /* amarillo bandera */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -2391,13 +2419,14 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #5f8f25;
-  border-color: #588423;
+  background-color: #D50000; /* rojo bandera */
+  border-color: #B20000;     /* un rojo más oscuro para contraste */
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(142, 194, 79, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(213, 0, 0, 0.4); /* rojo bandera con transparencia */
+
 }
 
 .btn-secondary {
