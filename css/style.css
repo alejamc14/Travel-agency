@@ -2718,14 +2718,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #7AB730;
-  border-color: #7AB730;
+  color: #FCD116;
+  border-color: #FCD116;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #7AB730;
-  border-color: #7AB730;
+  background-color: #FCD116;
+  border-color: #FCD116;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -9806,7 +9806,7 @@ h6,
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: #7AB730;
+  background: #FCD116;
 }
 
 .blog-date::after {
