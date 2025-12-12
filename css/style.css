@@ -5,6 +5,21 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+/* Botón primario TRIPCOL - Amarillo */
+.btn-primary {
+    background-color: #FCD116 !important; /* amarillo bandera */
+    border-color: #D4B100 !important;     /* amarillo más oscuro para el borde */
+    color: #000 !important;               /* texto oscuro para mejor contraste */
+}
+
+/* Hover del botón */
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #e5c400 !important;
+    border-color: #c5a900 !important;
+    color: #000 !important;
+}
+
 /* NAVBAR TRIPCOL 🇨🇴 */
 
 /* Color base azul bandera */
