@@ -9677,16 +9677,18 @@ h6,
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #7AB730;
+  border: 2px solid #0033A0;   /* azul bandera */
   background: #FFFFFF;
-  color: #7AB730;
+  color: #0033A0;              /* azul bandera */
   transition: .5s;
 }
 
+
 .service-item:hover i {
-  background: #7AB730;
-  color: #FFFFFF;
+  border-color: #D50000; /* rojo bandera */
+  color: #D50000;
 }
+
 
 .package-item {
   transition: .5s;
